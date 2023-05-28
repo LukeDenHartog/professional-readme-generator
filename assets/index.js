@@ -23,8 +23,13 @@ inquirer
     descriptionSubtitle = "## Description";
     description = `${answers.description}`
    tableOfContents = "## Table of Contents\n\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contribution Guidelines](#contribution-guidelines)\n- [Tests](#tests)\n- [Questions](#questions)"
-
-    readmeContent = `${titleName}\n\n${ descriptionSubtitle}\n\n${description}\n\n${tableOfContents}\n`;
+    installationHeader = "## Installation"
+    usageHeader = "## Usage"
+    contributionGuidelineHeader = "## Contribution Guidelines"
+    testsHeader = "## Tests"
+    questionsHeader = "## Questions"
+    
+    readmeContent = `${titleName}\n\n${ descriptionSubtitle}\n\n${description}\n\n${tableOfContents}\n\n`;
 
 
 
