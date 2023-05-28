@@ -1,6 +1,7 @@
 const fs = require('fs');
 
 var inquirer = require('inquirer');
+const { title } = require('process');
 inquirer
   .prompt([
     /* Pass your questions in here */
@@ -14,14 +15,30 @@ inquirer
     name: 'description',
     message: 'Give a description of the project.'
   },
-  {
-    type: 'confirm',
-    name: 'table',
-    message: 'Would you like to add a Table of Context?'
-  }
+
   ])
   .then((answers) => {
-    // Use user feedback for... whatever!!
+   
+    titleName = `# ${answers.title}`
+    descriptionSubtitle = "## Description";
+    description = `${answers.description}`
+   
+
+    readmeContent = `${titleName}\n\n${ descriptionSubtitle}\n` + '\n' + description + '\n';
+
+
+
+
+    // Write the value of the title to a file
+    fs.writeFile('README.md', readmeContent, (err) => {
+      if (err) {
+        console.error('Error writing file:', err);
+        return;
+      }
+      console.log('Title has been written to README.');
+    });
+
+    // Rest of your code
     console.log('Answers:', answers);
   })
   .catch((error) => {
@@ -31,7 +48,6 @@ inquirer
       // Something else went wrong
     }
   });
-
 
 
 
