@@ -22,9 +22,9 @@ inquirer
     titleName = `# ${answers.title}`
     descriptionSubtitle = "## Description";
     description = `${answers.description}`
-   
+   tableOfContents = "## Table of Contents\n\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contribution Guidelines](#contribution-guidelines)\n- [Tests](#tests)\n- [Questions](#questions)"
 
-    readmeContent = `${titleName}\n\n${ descriptionSubtitle}\n` + '\n' + description + '\n';
+    readmeContent = `${titleName}\n\n${ descriptionSubtitle}\n\n${description}\n\n${tableOfContents}\n`;
 
 
 
@@ -35,7 +35,7 @@ inquirer
         console.error('Error writing file:', err);
         return;
       }
-      console.log('Title has been written to README.');
+      console.log('Your user input has been written to README file.');
     });
 
     // Rest of your code
