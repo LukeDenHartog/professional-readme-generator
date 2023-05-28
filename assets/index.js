@@ -14,22 +14,29 @@ inquirer
     type: 'input',
     name: 'description',
     message: 'Give a description of the project.'
+  }, 
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'Give a description of how to install the project or anything needed to run it.'
   },
 
   ])
   .then((answers) => {
    
-    titleName = `# ${answers.title}`
+    titleName = `# ${answers.title}`;
     descriptionSubtitle = "## Description";
-    description = `${answers.description}`
-   tableOfContents = "## Table of Contents\n\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contribution Guidelines](#contribution-guidelines)\n- [Tests](#tests)\n- [Questions](#questions)"
-    installationHeader = "## Installation"
-    usageHeader = "## Usage"
-    contributionGuidelineHeader = "## Contribution Guidelines"
-    testsHeader = "## Tests"
-    questionsHeader = "## Questions"
-    
-    readmeContent = `${titleName}\n\n${ descriptionSubtitle}\n\n${description}\n\n${tableOfContents}\n\n`;
+    installationHeader = "## Installation";
+    usageHeader = "## Usage";
+    contributionGuidelineHeader = "## Contribution Guidelines";
+    testsHeader = "## Tests";
+    questionsHeader = "## Questions";
+    description = answers.description;
+   tableOfContents = "## Table of Contents\n\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contribution Guidelines](#contribution-guidelines)\n- [Tests](#tests)\n- [Questions](#questions)";
+   installationInfo = answers.installation;
+ 
+
+    readmeContent = `${titleName}\n\n${ descriptionSubtitle}\n\n${description}\n\n${tableOfContents}\n\n${installationHeader}\n\n${installationInfo}\n`;
 
 
 
