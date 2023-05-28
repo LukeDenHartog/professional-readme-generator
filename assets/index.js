@@ -24,6 +24,11 @@ inquirer
     type: 'input',
     name: 'usage',
     message: 'Give a description of how to use the project.'
+  },
+  {
+    type: 'input',
+    name: 'test',
+    message: 'Give a description of the steps that need to be followed in order to run tests or verify the functionality of a project or software.'
   }
 
   ])
@@ -34,14 +39,16 @@ inquirer
     installationHeader = "## Installation";
     usageHeader = "## Usage";
     contributionGuidelineHeader = "## Contribution Guidelines";
-    testsHeader = "## Tests";
+    testHeader = "## Test Instructions";
     questionsHeader = "## Questions";
     description = answers.description;
-   tableOfContents = "## Table of Contents\n\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contribution Guidelines](#contribution-guidelines)\n- [Tests](#tests)\n- [Questions](#questions)";
-   installationInfo = answers.installation;
-   usageInfo = answers.usage
+    tableOfContents = "## Table of Contents\n\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contribution Guidelines](#contribution-guidelines)\n- [Tests](#tests)\n- [Questions](#questions)";
+    installationInfo = answers.installation;
+    usageInfo = answers.usage;
+    testInstructions = answers.test;
 
-    readmeContent = `${titleName}\n\n${ descriptionSubtitle}\n\n${description}\n\n${tableOfContents}\n\n${installationHeader}\n\n${installationInfo}\n\n${usageHeader}\n${usageInfo}`;
+
+    readmeContent = `${titleName}\n\n${ descriptionSubtitle}\n\n${description}\n\n${tableOfContents}\n\n${installationHeader}\n\n${installationInfo}\n\n${usageHeader}\n${usageInfo}\n\n${testHeader}\n${testInstructions}`;
 
 
 
