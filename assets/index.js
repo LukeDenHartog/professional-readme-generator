@@ -19,7 +19,12 @@ inquirer
     type: 'input',
     name: 'installation',
     message: 'Give a description of how to install the project or anything needed to run it.'
-  },
+  },  
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'Give a description of how to use the project.'
+  }
 
   ])
   .then((answers) => {
@@ -34,9 +39,9 @@ inquirer
     description = answers.description;
    tableOfContents = "## Table of Contents\n\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contribution Guidelines](#contribution-guidelines)\n- [Tests](#tests)\n- [Questions](#questions)";
    installationInfo = answers.installation;
- 
+   usageInfo = answers.usage
 
-    readmeContent = `${titleName}\n\n${ descriptionSubtitle}\n\n${description}\n\n${tableOfContents}\n\n${installationHeader}\n\n${installationInfo}\n`;
+    readmeContent = `${titleName}\n\n${ descriptionSubtitle}\n\n${description}\n\n${tableOfContents}\n\n${installationHeader}\n\n${installationInfo}\n\n${usageHeader}\n${usageInfo}`;
 
 
 
