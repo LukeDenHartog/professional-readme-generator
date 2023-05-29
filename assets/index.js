@@ -74,7 +74,7 @@ inquirer
     
 
 
-    readmeContent = `${titleName}\n\n${licenseBadge}\n${ descriptionSubtitle}\n\n${description}\n\n${tableOfContents}\n\n${installationHeader}\n\n${installationInfo}\n\n${usageHeader}\n${usageInfo}\n\n${testHeader}\n${testInstructions}\n\n${licenseHeader}\nThis application is covered under: ${licenseChoice}\n\n${questionsHeader}\n\n My GitHub username is: ${githubUsername} (https://github.com/${githubUsername}/)`;
+    readmeContent = `${titleName}\n\n${licenseBadge}\n\n${ descriptionSubtitle}\n\n${description}\n\n${tableOfContents}\n\n${installationHeader}\n\n${installationInfo}\n\n${usageHeader}\n\n${usageInfo}\n\n${testHeader}\n\n${testInstructions}\n\n${licenseHeader}\n\nThis application is covered under: ${licenseChoice}\n\n${questionsHeader}\n\n My GitHub username is: ${githubUsername} (https://github.com/${githubUsername}/)`;
 
 
 
