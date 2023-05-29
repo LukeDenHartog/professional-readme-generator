@@ -35,6 +35,11 @@ inquirer
     name: 'license',
     message: 'Which license would you like to use?',
     choices: ['GPL General Public License', 'MiT License', 'Apache License 2.0']
+  },
+  {
+    type: 'input',
+    name: 'github',
+    message: 'What is your GitHub username?'
   }
 
   ])
@@ -47,12 +52,14 @@ inquirer
     contributionGuidelineHeader = "## Contribution Guidelines";
     testHeader = "## Test Instructions";
     questionsHeader = "## Questions";
-    description = answers.description;
     tableOfContents = "## Table of Contents\n\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contribution Guidelines](#contribution-guidelines)\n- [Tests](#test-instructions)\n- [Questions](#questions)";
+    licenseHeader = '## License'
+    questionsHeader = '## Questions'
+    description = answers.description;
     installationInfo = answers.installation;
     usageInfo = answers.usage;
     testInstructions = answers.test;
-    licenseHeader = '## License'
+    githubUsername = answers.github;
 
     
     if (answers.license === 'GPL General Public License 3.0') {
@@ -67,7 +74,7 @@ inquirer
     
 
 
-    readmeContent = `${titleName}\n\n${licenseBadge}\n${ descriptionSubtitle}\n\n${description}\n\n${tableOfContents}\n\n${installationHeader}\n\n${installationInfo}\n\n${usageHeader}\n${usageInfo}\n\n${testHeader}\n${testInstructions}\n\n${licenseHeader}\n${licenseChoice}`;
+    readmeContent = `${titleName}\n\n${licenseBadge}\n${ descriptionSubtitle}\n\n${description}\n\n${tableOfContents}\n\n${installationHeader}\n\n${installationInfo}\n\n${usageHeader}\n${usageInfo}\n\n${testHeader}\n${testInstructions}\n\n${licenseHeader}\nThis application is covered under: ${licenseChoice}\n\n${questionsHeader}\n\n My GitHub username is: ${githubUsername} (https://github.com/${githubUsername}/)`;
 
 
 
@@ -92,17 +99,3 @@ inquirer
     }
   });
 
-
-
-
-
-
-
-
-
-
-//fs.readFile('', 'utf8', (err, data)=>);
-                // path, data we want, and then our callback funtion
-//fs.writeFile('README.md', process.argv[2], (error)=>);
-
-// path, data that we want, and then our callback function
