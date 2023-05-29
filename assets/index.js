@@ -27,6 +27,11 @@ inquirer
   },
   {
     type: 'input',
+    name: 'contributionGuidelines',
+    message: 'Provide information and instructions to individuals who want to contribute to this project'
+  },
+  {
+    type: 'input',
     name: 'test',
     message: 'Give a description of the steps that need to be followed in order to run tests or verify the functionality of a project or software.'
   },
@@ -50,6 +55,7 @@ inquirer
     installationHeader = "## Installation";
     usageHeader = "## Usage";
     contributionGuidelineHeader = "## Contribution Guidelines";
+    contributionGuidelinesInfo = answers.contributionGuidelines
     testHeader = "## Test Instructions";
     questionsHeader = "## Questions";
     tableOfContents = "## Table of Contents\n\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contribution Guidelines](#contribution-guidelines)\n- [Tests](#test-instructions)\n- [Questions](#questions)";
@@ -74,7 +80,7 @@ inquirer
     
 
 
-    readmeContent = `${titleName}\n\n${licenseBadge}\n\n${ descriptionSubtitle}\n\n${description}\n\n${tableOfContents}\n\n${installationHeader}\n\n${installationInfo}\n\n${usageHeader}\n\n${usageInfo}\n\n${testHeader}\n\n${testInstructions}\n\n${licenseHeader}\n\nThis application is covered under: ${licenseChoice}\n\n${questionsHeader}\n\n My GitHub username is: ${githubUsername} (https://github.com/${githubUsername}/)`;
+    readmeContent = `${titleName}\n\n${licenseBadge}\n\n${ descriptionSubtitle}\n\n${description}\n\n${tableOfContents}\n\n${installationHeader}\n\n${installationInfo}\n\n${usageHeader}\n\n${usageInfo}\n\n${contributionGuidelineHeader}\n\n${contributionGuidelineInfo}\n\n${testHeader}\n\n${testInstructions}\n\n${licenseHeader}\n\nThis application is covered under: ${licenseChoice}\n\n${questionsHeader}\n\n My GitHub username is: ${githubUsername} https://github.com/${githubUsername}/)`;
 
 
 
