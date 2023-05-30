@@ -86,7 +86,7 @@ inquirer
 
 
     // Write the value of the title to a file
-    fs.writeFile('README.md', readmeContent, (err) => {
+    fs.writeFile('new-README.md', readmeContent, (err) => {
       if (err) {
         console.error('Error writing file:', err);
         return;
