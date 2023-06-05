@@ -20,7 +20,7 @@ Quickly and easily generate a README file by using a command-line application.
 
 ## Installation
 
-To install this project it is recommended that you install Visual Studio Code: [https://code.visualstudio.com], pull the files from my GitHub Profile Repository: [https://github.com/Afrozez/weather-dashboard].
+To install this project it is recommended that you install Visual Studio Code: https://code.visualstudio.com, pull the files from my GitHub Profile Repository: https://github.com/Afrozez/weather-dashboard.
 
 ## Usage
 
