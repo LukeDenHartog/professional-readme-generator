@@ -1,7 +1,7 @@
 # Professional-README-Generator
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-<iframe src="https://player.vimeo.com/video/833368675?h=7736fe4ce5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="900" height="506" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="sample-video"></iframe>
+
 ## Description
 
 Quickly and easily generate a README file by using a command-line application.
@@ -20,11 +20,12 @@ Quickly and easily generate a README file by using a command-line application.
 
 ## Installation
 
-To install this project it is recommended that you install Visual Studio Code: https://code.visualstudio.com, pull the files from my GitHub Profile Repository: https://github.com/Afrozez/weather-dashboard.
+ First clone the files from my GitHub Profile Repository: https://github.com/Afrozez/weather-dashboard. To install this project it is recommended that you install Visual Studio Code: https://code.visualstudio.com and the latest version of the Chrome browser.
 
 ## Usage
 
 To use this project first you must open the project folder and navigate to it in the console. Once you are inside the program folder via the terminal enter the command "node index.js" to run the program. After you entered the text "node index.js" inside the terminal a series of questions will be asked. When the user is done asnwering the questions then a  new README.md file will be created with the information the user entered earlier.
+####Here is a link to a walkthrough video demonstrating how to use this program: https://vimeo.com/833368675?share=copy#t=0
 
 ## Contribution Guidelines
 
