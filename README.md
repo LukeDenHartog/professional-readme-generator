@@ -13,6 +13,7 @@ Quickly and easily generate a README file by using a command-line application.
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
+      - [Here is a link to a walkthrough video demonstrating how to use this program: https://vimeo.com/833368675?share=copy#t=0](#here-is-a-link-to-a-walkthrough-video-demonstrating-how-to-use-this-program-httpsvimeocom833368675sharecopyt0)
   - [Contribution Guidelines](#contribution-guidelines)
   - [Test Instructions](#test-instructions)
   - [License](#license)
@@ -26,7 +27,7 @@ Quickly and easily generate a README file by using a command-line application.
 
 To use this project first you must open the project folder and navigate to it in the console. Once you are inside the program folder via the terminal enter the command "node index.js" to run the program. After you entered the text "node index.js" inside the terminal a series of questions will be asked. When the user is done asnwering the questions then a  new README.md file will be created with the information the user entered earlier.
 
-####Here is a link to a walkthrough video demonstrating how to use this program: https://vimeo.com/833368675?share=copy#t=0
+#### Here is a link to a walkthrough video demonstrating how to use this program: https://vimeo.com/833368675?share=copy#t=0
 
 ## Contribution Guidelines
 
