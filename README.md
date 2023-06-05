@@ -1,22 +1,26 @@
 # Professional-README-Generator
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
+<iframe src="https://player.vimeo.com/video/833368675?h=7736fe4ce5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="900" height="506" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="sample-video"></iframe>
 ## Description
 
 Quickly and easily generate a README file by using a command-line application.
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contribution Guidelines](#contribution-guidelines)
-- [Tests](#test-instructions)
-- [Questions](#questions)
+- [Professional-README-Generator](#professional-readme-generator)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution Guidelines](#contribution-guidelines)
+  - [Test Instructions](#test-instructions)
+  - [License](#license)
+  - [Questions](#questions)
 
 ## Installation
 
-To install this project it is recommended that you install Visual Studio Code: https://code.visualstudio.com, pull the files from my GitHub Profile Repository: https://github.com/Afrozez/weather-dashboard.
+To install this project it is recommended that you install Visual Studio Code: [https://code.visualstudio.com], pull the files from my GitHub Profile Repository: [https://github.com/Afrozez/weather-dashboard].
 
 ## Usage
 
@@ -24,7 +28,7 @@ To use this project first you must open the project folder and navigate to it in
 
 ## Contribution Guidelines
 
-If anyone would like to work on/add to this project it is recommended to first follow these steps: Pull the files from my GitHub Profile Repository: https://github.com/Afrozez/professional-readme-generator. Install Node.js version 16.20, and have a decent understanding of GitHub/Node.js.
+If anyone would like to work on/add to this project it is recommended to first follow these steps: Pull the files from my GitHub Profile Repository: [https://github.com/Afrozez/professional-readme-generator.] Install Node.js version 16.20, and have a decent understanding of GitHub/Node.js.
 
 ## Test Instructions
 
