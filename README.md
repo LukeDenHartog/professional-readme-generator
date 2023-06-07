@@ -21,7 +21,7 @@ Quickly and easily generate a README file by using a command-line application.
 
 ## Installation
 
- First clone the files from my GitHub Profile Repository: https://github.com/Afrozez/weather-dashboard. To install this project it is recommended that you install Visual Studio Code: https://code.visualstudio.com and the latest version of the Chrome browser.
+ First clone the files from my GitHub Profile Repository: https://github.com/Afrozez/weather-dashboard. To us this project you must locate and go to the downloaded file inside of the console and enter "npm install". Also It's recommended to install Visual Studio Code: https://code.visualstudio.com and the latest version of the Chrome browser.
 
 ## Usage
 
