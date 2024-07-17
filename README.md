@@ -21,7 +21,7 @@ Quickly and easily generate a README file by using a command-line application.
 
 ## Installation
 
- First clone the files from my GitHub Profile Repository: (https://github.com/Afrozez/professional-readme-generator). To us this project you must locate and downloaded the file inside of the console and enter "npm install". Also It's recommended to install Visual Studio Code: https://code.visualstudio.com and the latest version of the Chrome browser.
+ First clone the files from my GitHub Profile Repository: (https://github.com/LukeDenHartog/professional-readme-generator). To us this project you must locate and downloaded the file inside of the console and enter "npm install". Also It's recommended to install Visual Studio Code: https://code.visualstudio.com and the latest version of the Chrome browser.
 
 ## Usage
 
@@ -31,7 +31,7 @@ To use this project first you must open the project folder and navigate to it in
 
 ## Contribution Guidelines
 
-If anyone would like to work on/add to this project it is recommended to first follow these steps: Pull the files from my GitHub Profile Repository: [https://github.com/Afrozez/professional-readme-generator.] Install Node.js version 16.20, and have a decent understanding of GitHub/Node.js.
+If anyone would like to work on/add to this project it is recommended to first follow these steps: Pull the files from my GitHub Profile Repository: [https://github.com/LukeDenHartog/professional-readme-generator.] Install Node.js version 16.20, and have a decent understanding of GitHub/Node.js.
 
 ## Test Instructions
 
@@ -43,4 +43,4 @@ This application is covered under: Apache License 2.0
 
 ## Questions
 
- My GitHub username is: Afrozez <https://github.com/Afrozez/>
+ My GitHub username is: Luke DenHartog <https://github.com/LukeDenHartog/>
